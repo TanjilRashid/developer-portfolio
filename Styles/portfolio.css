@@ -37,6 +37,8 @@ header {
     border-radius: 6px;
 }
 
+/* Nav Begins */
+
 nav {
     padding-top: 36px;
     display: flex;
@@ -57,6 +59,10 @@ nav ul li {
     list-style-type: none;
     margin-left: 50px;
 }
+
+/* Nav Ends */
+
+/* Banner Begins */
 
 .banner {
     display: flex;
@@ -93,4 +99,48 @@ nav ul li {
     right: -160px;
     bottom: -5px;
     width: 490px;
+}
+
+/* Banner Ends */
+
+/* About Begins */
+
+.about {
+    margin: 130px 230px;
+    padding: 118px 132px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 22px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
