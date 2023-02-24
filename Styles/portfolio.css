@@ -112,7 +112,7 @@ nav ul li {
     text-align: center;
 }
 
-.section-title {
+.about-title {
     font-weight: 700;
     font-size: 35px;
     line-height: 48px;
@@ -120,7 +120,7 @@ nav ul li {
     margin-bottom: 22px;
 }
 
-.section-description {
+.about-description {
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
@@ -144,3 +144,169 @@ nav ul li {
     font-size: 16px;
     line-height: 30px;
 }
+
+/* About Ends */
+
+/* Work Begins */
+
+.work {
+    margin: 130px 180px;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.work-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    padding: 0 132px;
+}
+
+.skills {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.sub-skills {
+    box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 60px 8px;
+    padding: 30px;
+}
+
+.sub-skills h3 {
+    margin: 15px 0;
+}
+
+.sub-skills p {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* Skills Ends */
+
+/* Resume Begins */
+
+.resume {
+    margin: 130px 180px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 22px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.resume-description {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.education-section:not(:last-child), .experience-section:not(:last-child) {
+    border-bottom: #D1D1D1 1px solid;
+    margin-right: 32px;
+    margin-bottom: 30px;
+}
+
+.education-title, .experience-title {
+    margin-bottom: 30px;
+}
+
+.education-section-title, .edu-year, .experience-section-title, .exp-year {
+    margin-bottom: 10px;
+}
+
+.edu-description, .exp-description {
+    margin-bottom: 30px;
+}
+
+.edu-year, .exp-year {
+    color: #757575;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.edu-description, .exp-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.bottom-cta {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Resume Ends */
+
+/* Footer Begins */
+
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer-section {
+    display: flex;
+    margin: 130px 180px 0px;
+    padding-top: 130px;
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    padding-right: 110px;
+}
+
+.icons img {
+    padding-right: 24px;
+}
+
+.message {
+    margin-bottom: 130px;
+}
+
+.message form input, .message form textarea {
+    border: none;
+    margin-bottom: 24px;
+    display: block;
+    width: 461px;
+    height: 64px;
+}
+
+.message form textarea {
+    height: 180px;
+}
+
+.message input::placeholder, .message textarea::placeholder {
+    color: #757575;
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.message form {
+    padding-bottom: 24px;
+}
+
+/* Footer Ends */
