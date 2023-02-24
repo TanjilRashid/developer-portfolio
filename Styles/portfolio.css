@@ -39,6 +39,10 @@ header {
 
 /* Nav Begins */
 
+header .burger-ico {
+    display: none;
+}
+
 nav {
     padding-top: 36px;
     display: flex;
@@ -287,7 +291,7 @@ footer {
     margin-bottom: 130px;
 }
 
-.message form input, .message form textarea {
+.message-input {
     border: none;
     margin-bottom: 24px;
     display: block;
@@ -310,3 +314,214 @@ footer {
 }
 
 /* Footer Ends */
+
+/* Responsive Mobile Device */
+
+@media screen and (max-width: 600px) {
+
+    /* Header */
+
+    nav {
+        display: none;
+    }
+
+    header .burger-ico {
+        display: block;
+        font-size: 32px;
+        position: absolute;
+        right: 24px;
+        top: 24px;
+    }
+
+    header {
+        background-position: bottom right, left;
+        background-size: 680px, 70px;
+        padding: 0 80px;
+    }
+
+    header .burger-ico:hover nav {
+        display: block;
+    }
+
+    .banner {
+        padding-top: 110px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cta-buttons {
+        display: block;
+    }
+    
+    .cta-buttons a {
+        margin-top: 32px;
+        margin-right: 0;
+    }
+
+    .button-primary {
+        padding: 8px 14px;
+    }
+    
+    .button-secondary {
+        padding: 8px 14px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #474747;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .banner-text p {
+        color: #757575;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .banner-image img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 245px;
+    }
+
+    /* Header */
+
+    /* About */
+
+    .about {
+        margin: 30px;
+        padding: 18px 32px;
+        text-align: center;
+    }
+    
+    .about-info-container {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .about-info {
+        width: 50%;
+    }
+    
+    .info-title {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    
+    .info-description {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* About */
+
+    /* Work */
+
+    .work {
+        margin: 30px;
+    }
+
+    .work-description {
+        padding: 0;
+    }
+    
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .sub-skills {
+        margin: .25rem 0;
+        width: 35%;
+    }
+    
+    /* Work */
+
+    /* resume */
+
+    .resume {
+        margin: 30px;
+    }
+
+    .edu-description {
+        text-align: justify;
+    }
+    
+    .extra-margin-p4 {
+        padding-bottom: 22px;
+    }
+
+    .education-title, .experience-title {
+        font-size: 18px;
+    }
+    
+    .education-section-title, .edu-year, .experience-section-title, .exp-year {
+        font-size: 16px;
+    }
+
+    /* resume */
+
+    /* Footer */
+
+    footer {
+        text-align: center;
+    }
+
+    .connect {
+        margin-bottom: 60px;
+    }
+    
+    .footer-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 180px 30px 0px;
+        padding-top: 80px;
+    }
+    
+    .footer-section p {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        padding: 0;
+    }
+    
+    .icons img {
+        padding-right: 24px;
+    }
+    
+    .message {
+        margin-bottom: 130px;
+        width: 100vw;
+    }
+    
+    .message-input {
+        width: 100%;
+    }
+
+    .message form textarea {
+        height: 180px;
+    }
+    
+    .message input::placeholder, .message textarea::placeholder {
+        color: #757575;
+        padding-left: 30px;
+        padding-top: 18px;
+    }
+    
+    .message form {
+        padding-bottom: 24px;
+    }
+
+    /* Footer */
+    
+}
